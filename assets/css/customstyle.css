@@ -70,6 +70,19 @@ body {
   margin-bottom: 20px;
   text-align: center;
 }
+
+.marketing .col-lg-4:hover {
+  background-color: #1A1A1A;
+}
+
+.marketing .col-lg-4 .hiddenContent{
+  display: none;
+}
+
+.marketing .col-lg-4:hover .hiddenContent{
+  display: block;
+}
+
 .marketing h2 {
   font-weight: normal;
 }
@@ -92,6 +105,15 @@ body {
   line-height: 1;
   letter-spacing: -1px;
 }
+
+.hiddenContainer {
+  width:360px;
+  height:300px;
+}
+
+
+
+
 
 
 /* RESPONSIVE CSS
